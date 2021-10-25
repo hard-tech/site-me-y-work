@@ -1,0 +1,70 @@
+.ttx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-top: 10px;
+    width: 100%;
+    }
+    .G{
+        text-align: center;
+    }
+
+
+    .info-recrutement{
+        text-align: center;
+        padding: 5px;
+        box-shadow: 0 0 5px rgb(255 255 255);
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        padding-top: 8px;
+    }
+
+    .info-recrutement:hover {
+        text-align: center;
+        padding: 5px;
+        box-shadow: 0 0 5px rgb(255 255 255);
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        padding-top: 8px;
+        border: 3px solid white;
+    }
+
+    .ici{
+        text-shadow: 0 0 5px rgb(255, 0, 0);
+    }
+
+    a.ici{
+        text-decoration: none;
+    }
+
+    .box {
+        height: 300px!important;
+    }
+
+    @media(max-width: 507px){
+    .box {
+        height: 300px!important;
+    }
+    }

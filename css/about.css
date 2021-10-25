@@ -1,0 +1,77 @@
+/* début code page général */
+.img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 2px solid white;
+    box-shadow:  0 0 5px rgb(255, 255, 255);
+    margin-bottom: -5px;
+    display: flex;
+    margin-top: -10px;
+}
+
+@media (max-width: 500px) {
+    .img{width: 70px;height: 70px;font-size: small;}
+}
+@media (max-width: 450px) {
+    .info-team{width: 200px;font-size: small;}
+}
+@media (min-width: 450px) {
+    .info-team{width: 305px;font-size: small;}
+}
+.info-team{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
+  border-radius: 25px;
+}
+
+.info{
+    padding: 10px;
+    text-align: center;
+}
+
+h4{
+    margin-top: -16.185px;
+    margin-bottom: -10.185px;
+}
+
+.container {
+    position: relative;
+  }
+  
+  .image {
+    display: block;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .8s ease;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/* fin code générale */
+

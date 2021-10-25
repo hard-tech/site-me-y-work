@@ -1,0 +1,38 @@
+.txt{
+    margin: 2px auto;
+    font-size: large;
+    color: white;
+}
+img{
+    padding-left: 5px;
+    width: 60px;
+    padding-top: 8px;
+    
+}
+
+.name{
+    background-image: url(https://img.freepik.com/photos-gratuite/texture-fond-noir-simple-resume-lumiere-degrade-gris-nous-utiliser-comme-toile-fond_1962-1096.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px; 
+    border-radius: 15px;
+    border: 1.8mm ridge rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 500px){
+    .name{width: 90%;}
+}
+@media (min-width: 500px){
+    .name{
+    width: 500px;}
+}
+
+a{
+    text-decoration: none !important;
+}

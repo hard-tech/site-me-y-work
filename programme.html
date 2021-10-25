@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="icon" type="image/png" href="./img/logo_team/logo_small_icon_only_inverted.png" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/programme.css">
+  <!-- ### Animate css link ### -->
+  <title>new-tech</title>
+</head>
+<body>
+  <div id="navig"></div>
+<div class="all">
+  <div class="box">
+      <h4 class="animate__animated animate__rubberBand" align='center'>Box de Commande</h4>
+      <form name="commande">
+          <input type="text"  NAME="input" placeholder="Taper votre commande </>" id="commande-box">
+          <INPUT TYPE="button" VALUE="Start" onClick="controle(commande)" id="boutton-start-commande">
+      </form>
+      <h5 class="animate__animated animate__flash animate__delay-3s"><p><div id="out-commande"> - (h) Pour help</div></p></h5>
+  </div>
+
+  <b><div class="p-3 mb-3 mt-4 rounded-x">Votre poids idéal selon ; </div></b>
+  <div class="box d-flex box-ideal-poids-reponse">
+    <br>
+    <div class="text-center"><h4><code><b>Tapper la commande (P)</b></code></h3></div>
+    <div class="Lorentz formule-de align-items-center d-flex justify-content-between"><img class="img-ico mx-2" width="40px" height="40px" src="./img/image/balance (3).png" alt="Img indispo."><div class="formule">Lorentz,</div><div class="poids-L mx-2"><var class="var-poids-L">DONNÉE MANQUANTE</var>&nbsp;&nbsp;</div></div>
+    <br><div class="Creff formule-de align-items-center d-flex justify-content-between"><img class="img-ico mx-2" width="40px" height="40px" src="./img/image/balance (3).png" alt="Img indispo."><div class="formule">Creff,</div><div class="poids-C mx-2"><var class="var-poids-C">DONNÉE MANQUANTE</var>&nbsp;&nbsp;</div></div><br>
+    <div class="Monnerot-Dumaine formule-de align-items-center d-flex justify-content-between"><img class="img-ico mx-2" width="40px" height="40px" src="./img/image/balance (3).png" alt="Img indispo."><div class="formule">Monnerot-Dumaine,</div><div class="poids-M mx-2"><var class="var-poids-M">DONNÉE MANQUANTE</var>&nbsp;&nbsp;</div></div>
+    <!-- <div class="IMC formule-de align-items-center d-flex justify-content-between"><img class="img-ico mx-2" width="40px" height="40px" src="./img/image/imc.png" alt="Img indispo."><div class="formule">VOTRE IMC</div><div class="poids-I mx-2"><var class="var-poids-I">Tapper la commande (P)</var> &nbsp;&nbsp;</div></div> -->
+    <br>
+  </div>
+  <b><div class="bg-box p-3 mb-3 mt-4 rounded-x" style="height: 80px;"><div class="formule-de align-items-center d-flex justify-content-between"><div class="box-Resulat-poids">Votre <img width="35px" height="35px" class="rounded-circle" src="./img/image/IMC$.png" alt="IMC"> est de</div><var class="var-poids-I">?</var></div></div></b>        
+
+  <div>
+      <div class="alert alert-primary d-flex align-items-center mt-4 Large" role="alert">
+      <svg class="bi flex-shrink-0 me-2" width="24"x height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+      <div>
+        Programme de Chiffrement et Déchiffrement <a style="color: black;" href="./code-d-code-main/index.html">Ici</a>
+      </div>
+      </div>
+  </div>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+      </symbol>
+      <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+      </symbol>
+      <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+      </symbol>
+    </svg>
+
+</div>
+<footer class="container">
+  <div class="footer"></div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script src="./script/programme.js"></script>
+    <script src="./script/md5.min.js"></script>
+    <script src="./script/code.js"></script>
+    <script src="./script/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+#box{
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+  --background-color: #111;
+  --page-background: #212121;
+  --text-color: #ededed;
+  --color-alpha: #50a8d8;
+  }
+  } */
+
+
+.choix-site{
+
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* boutton choix-site */
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: rgb(30, 255, 0); 
+  border: 2px solid rgb(30, 255, 0);
+  box-shadow: 0 0 5px rgb(30, 255, 0);
+  border-radius: 15px;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: rgb(0, 89, 255); 
+  border: 2px solid rgb(0, 89, 255);
+  box-shadow: 0 0 5px rgb(0, 89, 255);
+  border-radius: 15px;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: rgb(255, 0, 0); 
+  border: 2px solid #f44336;
+  box-shadow: 0 0 5px rgb(255, 0, 0);
+  border-radius: 15px;
+}
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+.button4 {
+  background-color: white; 
+  color: rgb(20, 20, 20); 
+  border: 2px solid rgb(20, 20, 20);
+  box-shadow: 0 0 5px rgb(20, 20, 20);
+  border-radius: 15px;
+}
+
+.button4:hover {
+  background-color: #222222;
+  color: white;
+}
+
+.Bl{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#box{
+  height: 500px;
+}
