@@ -2,7 +2,7 @@ document.querySelector("#navig").innerHTML = `
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
 <div class="container-fluid">
   <img src="./img/logo_team/logo_small_icon_only_inverted.png" class="rounded float-start img-fluid mx-2" width="50px" height="50px" alt="icon indisponible">
-  <a class="navbar-brand fs-2 px-3" href="#">New-craft</a>
+  <a class="navbar-brand fs-2 px-3" href="#"><b>New-tech</b></a>
   <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -34,7 +34,7 @@ document.querySelector("#navig").innerHTML = `
       
       <div class="btn-group" role="group">
         <button id="btnGroupDrop1" type="button" class="btn text-start mx-1 down-btn text-white nav-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="margin-left: -10px; padding-left: 10px;">
-          info
+          Info
         </button> 
         <ul class="dropdown-menu" style="background: transparent;" aria-labelledby="btnGroupDrop1">
           <li><a class="dropdown-item nav-item hover-black rounded-3 text-white" href="recrutement.html">Recrutement</a></li>
@@ -54,6 +54,7 @@ document.querySelector("#navig").innerHTML = `
   </div>
 </div>
 </nav>
+<br><br><br>
 `;
 
 document.querySelector(".footer").innerHTML = `
