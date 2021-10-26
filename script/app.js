@@ -34,7 +34,7 @@ document.querySelector("#navig").innerHTML = `
       
       <div class="btn-group" role="group">
         <button id="btnGroupDrop1" type="button" class="btn text-start mx-1 down-btn text-white nav-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="margin-left: -10px; padding-left: 10px;">
-          Info
+          info
         </button> 
         <ul class="dropdown-menu" style="background: transparent;" aria-labelledby="btnGroupDrop1">
           <li><a class="dropdown-item nav-item hover-black rounded-3 text-white" href="recrutement.html">Recrutement</a></li>
@@ -46,7 +46,7 @@ document.querySelector("#navig").innerHTML = `
         <a class="me-2 mx-1text-white" style="margin-top: 9px;" href="about.html">&Agrave; propos</a>
     </ul>
     <!-- ### Teste ### -->
-    <form class="d-flex d-flex-liste" id="auto-suggest" action="#" method="post">
+    <form class="d-flex rech d-flex-liste" id="auto-suggest" action="#" method="post">
       <input  id="searchInput" id="autocomplete" placeholder="Recherche" aria-label="Search" type="text" class="search form-control me-2 input" name="search" onfocus="if(this.value=='Rechercher...')this.value=''" onblur="if(this.value=='')this.value='Rechercher...' " autocomplete="off"/>
       <button class="btn btn-outline-light mx-2" style="width: 50px;" type="submit" onclick="Search()">&#x1F50D;</button>
     </form>
@@ -59,7 +59,7 @@ document.querySelector("#navig").innerHTML = `
 
 document.querySelector(".footer").innerHTML = `
 <div class=" text-center py-2">© 2021 Copyright by new-tech :
-site v1.9.2
+site v1.9.8
 </div>  
 `;
 
