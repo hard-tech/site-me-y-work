@@ -1,8 +1,8 @@
 document.querySelector("#navig").innerHTML = `
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
 <div class="container-fluid">
-  <img src="./img/logo_team/logo_small_icon_only_inverted.png" class="rounded float-start img-fluid mx-2" width="50px" height="50px" alt="icon indisponible">
-  <a class="navbar-brand fs-2 px-3" href="#"><b>New-tech</b></a>
+  <a href="./index.html"><img src="./img/logo_team/logo_small_icon_only_inverted.png" class="rounded float-start img-fluid mx-2" width="50px" height="50px" alt="icon indisponible"></a>
+  <a class="navbar-brand fs-2 px-3" href="index.html"><b>New-webTech</b></a>
   <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -58,8 +58,8 @@ document.querySelector("#navig").innerHTML = `
 `;
 
 document.querySelector(".footer").innerHTML = `
-<div class=" text-center py-2">© 2021 Copyright by new-tech :
-site v1.9.8
+<div class=" text-center py-2">© 2021 Copyright by new-webtech :
+site v1.9.9
 </div>  
 `;
 
